@@ -2,9 +2,10 @@ import { useEffect } from 'react';
 import NavBar from '../component/NavBar';
 import Footter from '../component/Footter';
 import '../style/Home.css';
-import Picture1 from '../assets/about-image.jpg';
+import Picture1 from '../assets/background.jpg';
 import Picture2 from '../assets/image1.jpg';
-import Picture3 from '../assets/image2.jpeg';
+import Picture3 from '../assets/about-image.jpg';
+import Picture4 from '../assets/image3.jpg';
 
 
 
@@ -45,13 +46,13 @@ const Home = () => {
     <img src={Picture1} alt="Image 1" />
   </div>
   <div className="slide">
-    <img src={Picture1}alt="Image 2" />
+    <img src={Picture2}alt="Image 2" />
   </div>
   <div className="slide">
-    <img src={Picture2} alt="Image 3" />
+    <img src={Picture3} alt="Image 3" />
   </div>
   <div className="slide">
-    <img src={Picture3} alt="Image 4" />
+    <img src={Picture4} alt="Image 4" />
   </div>
 
           <button className="prev">❮</button>

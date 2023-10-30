@@ -6,7 +6,7 @@
   }
   
   .slide {
-    height: 60vh; /* 50% of viewport height */
+    height: 80vh; /* 50% of viewport height */
     width: 100vw;
     display: none;
   }
@@ -31,7 +31,7 @@
     font-size: 24px;
     z-index: 1;
     opacity: 50%;
-    color: blue;
+    color: rgb(247, 247, 250);
   }
   
   .prev {
