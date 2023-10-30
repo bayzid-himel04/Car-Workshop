@@ -1,0 +1,68 @@
+.services {
+  padding: 20px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.services h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
+  transition: text-shadow 0.3s ease-in-out; /* Add a smooth transition effect for hover */
+}
+
+.services h2:hover {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Make the shadow darker on hover */
+}
+
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Added gap for better spacing */
+}
+
+.service {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: calc(33.33% - 20px); /* Three items in a row with a small gap */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Added box shadow for style */
+  transition: transform 0.3s ease-in-out, box-shadow 0.2s ease-in-out; /* Added smooth transition */
+}
+
+.service:hover {
+  transform: rotate(360deg); /* Rotate the card 360 degrees on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced hover effect */
+}
+
+.service h3 {
+  font-size: 20px;
+  color: rgb(0, 140, 255);
+  font-weight: bold; /* Added bold font for better style */
+}
+
+.service p {
+  font-size: 16px;
+  color: #777; /* Adjusted text color for better readability */
+}
+
+/* Responsive design for tablet and mobile */
+@media (max-width: 768px) {
+  .service {
+    width: calc(50% - 20px); /* Two items in a row on smaller screens */
+  }
+}
+
+/* Responsive design for mobile */
+@media (max-width: 480px) {
+  .service {
+    width: 100%; /* Single item per row on the smallest screens */
+  }
+}

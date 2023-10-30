@@ -1,0 +1,131 @@
+/* Base styles for all screen sizes */
+.about {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1, h2 {
+  font-size: 32px;
+  color: rgb(0, 102, 255);
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #444;
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+.about-section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Styles for different sections */
+.about-intro {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-mission {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-team {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-services {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-community {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.square {
+  height: 100%;
+  width: 100%;
+  padding: 20px; /* Add padding as needed */
+  background-color: #fff; /* Set the background color */
+  border: 1px solid #ddd; /* Add a border if desired */
+}
+.squareCom {
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  padding: 20px; /* Add padding as needed */
+  background-color: #fff; /* Set the background color */
+  border: 1px solid #ddd; /* Add a border if desired */
+}
+/* Responsive design for tablet and mobile */
+@media (max-width: 768px) {
+  h1, h2 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .about-content {
+    padding: 10px;
+  }
+  .squareCom {
+    width: 100%;
+    margin-left: 0;
+    
+  }
+}
+
+/* Responsive design for mobile */
+@media (max-width: 480px) {
+  .about-content {
+    padding: 10px;
+  }
+
+  h1, h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .squareCom {
+    width: 100%;
+    margin-left: 0;
+  }
+  
+}
+
+
+
+

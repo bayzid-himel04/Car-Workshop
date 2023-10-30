@@ -1,0 +1,138 @@
+.career {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+  }
+  
+  .career h2 {
+    font-size: 32px;
+    color: #1c2331;
+    margin: 20px 0;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+    transition: text-shadow 0.3s ease-in-out; /* Add a transition for the hover effect */
+  }
+  
+  .career h2:hover {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.8); /* Adjusted shadow on hover */
+  }
+  
+  
+  .career p {
+    font-size: 18px;
+    color: #444;
+    margin: 20px 0;
+    line-height: 1.6;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 10px; /* Add some padding for a classic look */
+    background-color: #f2f2f2; /* Apply a light background color */
+    border: 1px solid #ddd; /* Add a subtle border for separation */
+    border-radius: 5px; /* Round the corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s; /* Smooth transitions */
+  }
+  
+  .career p:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Enhance the shadow on hover */
+    background-color: #e0e0e0; /* Slight background color change on hover */
+  }
+  
+  .career-benefits {
+    font-size: 20px;
+    color: #1c2331;
+    margin: 20px 0;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .benefits-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .benefits-list li {
+    font-size: 18px;
+    color: #444;
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.6;
+  }
+  
+  .benefits-list li::before {
+    content: '\2022';
+    color: #1c2331;
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+  }
+  
+  .job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .job {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job:hover {
+    transform: scale(1.02);
+  }
+  
+  .job h3 {
+    font-size: 24px;
+    color: #1c2331;
+  }
+  
+  .job p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Responsive design for mobile */
+  @media (max-width: 768px) {
+    .career h2 {
+      font-size: 28px;
+    }
+    
+    .career p {
+      font-size: 16px;
+    }
+    
+    .career-benefits {
+      font-size: 18px;
+    }
+    
+    .benefits-list li {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    .job h3 {
+      font-size: 20px;
+    }
+    
+    .job p {
+      font-size: 14px;
+    }
+    
+    .job {
+      max-width: 100%;
+    }
+  }
+  

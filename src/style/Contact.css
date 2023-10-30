@@ -1,0 +1,117 @@
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  z-index: 1; /* Ensure the form is on top of the animation */
+}
+
+.animation-container {
+  position: relative;
+  text-align: center;
+  z-index: 0; /* Place the animation behind the form */
+}
+
+.car {
+  position: absolute;
+  left: -100px;
+  top: 50%;
+  width: 100px;
+  height: 50px;
+  background: url('../assets/car.svg'); /* Replace with your car image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-name: carMoveRight;
+}
+.animation-container {
+  padding: 42px 0; /* Add space between form and animation */
+}
+/* ... (your existing styles) */
+
+@keyframes carMoveRight {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: calc(100% + 100px); /* Move the car outside the right edge of the form */
+  }
+}
+h2 {
+  font-size: 32px;
+  color: rgba(0, 15, 6, 0.993);
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(8, 63, 214);
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive design for tablet and mobile */
+
+@media (max-width: 768px) {
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .car {
+    width: 50px;
+    height: 25px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+
+  input,
+  textarea {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
+
+/* Responsive design for mobile */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  input,
+  textarea {
+    padding: 6px;
+  }
+
+  button {
+    padding: 6px 12px;
+  }
+  .animation-container {
+    padding: 30px 0; /* Add space between form and animation */
+  }
+}

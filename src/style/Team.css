@@ -1,0 +1,74 @@
+.auto-repair-team {
+  padding: 40px;
+  text-align: center;
+  background-color: #f2f2f2;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.auto-repair-team h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1c2331;
+  font-family: 'cursive', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: text-shadow 0.2s ease-in-out;
+} 
+.auto-repair-team h1:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+.auto-repair-team h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #0f6;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+  background-color: #fff;
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 320px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; /* Add a smooth transition */
+}
+
+.service:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.5); /* Add a box shadow on hover */
+}
+
+.service i {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #0f6;
+}
+
+.service h3 {
+  font-size: 20px;
+  color: #333;
+  font-style: italic;
+}
+
+.service p {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Responsive design for tablet and mobile */
+@media (max-width: 768px) {
+  .service {
+    max-width: 100%;
+  }
+
+  .services-container {
+    padding: 20px;
+  }
+}
