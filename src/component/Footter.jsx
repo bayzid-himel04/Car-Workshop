@@ -13,7 +13,7 @@ const Footer = () => {
               <h6 className="footer-title">Car XYZ</h6>
               <hr className="divider" />
               <p className="footer-text">
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Where Innovation Meets Performance. Unleash the Road Ahead with Our Exceptional Automotive Engineering.
               </p>
             </div>
 
@@ -39,15 +39,16 @@ const Footer = () => {
             </div>
 
             <div className="col-md-4 col-lg-3 col-xl-3">
-              <h6 className="footer-title">Contact</h6>
-              <hr className="divider" />
-              <address className="footer-contact">
-                <p><i className="fas white fa-home mr-3"></i>New York, NY 10012, US</p>
-                <p><i className="fas white fa-envelope mr-3"></i>info@example.com</p>
-                <p><i className="fas white fa-phone mr-3"></i>+ 01 234 567 88</p>
-                <p><i className="fas white fa-print mr-3"></i>+ 01 234 567 89</p>
-              </address>
-            </div>
+  <h6 className="footer-title">Contact</h6>
+  <hr className="divider" />
+  <address className="footer-contact">
+    <p><i className="fas white fa-home mr-3"></i><span className="white">New York, NY 10012, US</span></p>
+    <p><i className="fas white fa-envelope mr-3"></i><span className="white">info@example.com</span></p>
+    <p><i className="fas white fa-phone mr-3"></i><span className="white">+ 01 234 567 88</span></p>
+    <p><i className="fas white fa-print mr-3"></i><span className="white">+ 01 234 567 89</span></p>
+  </address>
+</div>
+
           </div>
         </div>
       </div>
