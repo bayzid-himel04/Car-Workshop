@@ -21,10 +21,10 @@ const Footer = () => {
               <h6 className="footer-title">Products</h6>
               <hr className="divider" />
               <ul className="footer-list">
-                <li><a href="#!" className="white">MDBootstrap</a></li>
-                <li><a href="#!" className="white">MDWordPress</a></li>
-                <li><a href="#!" className="white">BrandFlow</a></li>
-                <li><a href="#!" className="white">Bootstrap Angular</a></li>
+                <li><a href="#!" className="white">Air Compressor</a></li>
+                <li><a href="#!" className="white">Vehicle Lift</a></li>
+                <li><a href="#!" className="white">Strut Compressor</a></li>
+                <li><a href="#!" className="white">Engine</a></li>
               </ul>
             </div>
 
